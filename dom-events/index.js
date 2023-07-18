@@ -15,7 +15,10 @@
 
 function month(){
     const result = document.getElementById('month_name').value;
-    document.getElementById('show_case').innerHTML=result;
+    
+   document.getElementById('show_case').innerHTML = result;
 }
+
+
 
 

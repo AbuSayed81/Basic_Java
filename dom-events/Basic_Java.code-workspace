@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../function1"
+		},
+		{
+			"path": "../../function2"
+		},
+		{
+			"path": "../../function3"
+		},
+		{
+			"path": "../../function4"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Basic_Java"
+	}
+}
