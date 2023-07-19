@@ -7,16 +7,17 @@
 //     head.style.color = 'white';
 // }
 
-// function u_case(){
-//     const result = document.getElementById('ucase');
-//      result.value.toUpperCase();
+function u_case(){
+    const result = document.getElementById('ucase');
+     result.value = result.value.toUpperCase();
 
-// } 
+} 
 
-function month(){
+function selector(){
     const result = document.getElementById('month_name').value;
-    
-   document.getElementById('show_case').innerHTML = result;
+
+    document.getElementById('show_case').innerHTML = result;
+
 }
 
 
