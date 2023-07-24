@@ -1,0 +1,31 @@
+.parent{
+    display: flex;justify-content: center;
+    
+}
+.red{
+    height: 50px;
+    width: 150px;
+    background: red;
+    margin-right: 10px;
+}
+.green{
+    height: 50px;
+    width: 150px;
+    background: green;
+    margin-right: 10px;
+}
+.orange{
+    height: 50px;
+    width: 150px;
+    background: rgb(62, 22, 241);
+}
+.circle{
+    height: 150px;
+    width: 150px;
+    background: rgb(201, 201, 171);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
