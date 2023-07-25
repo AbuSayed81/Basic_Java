@@ -1,10 +1,9 @@
-const toTop = document.querySelector('.back-top-btn');
+const goTop = document.querySelector(".back_btn");
 
 window.addEventListener('scroll', ()=>{
-    if(window.pageyoffset > 100){
-        toTop.classList.add('active');
-    }
-    else{
-        toTop.classList.remove('active');
+    if(window.pageYOffset > 100){
+        goTop.classList.add('xyz');
+    }else{
+        goTop.classList.remove('xyz');
     }
 })

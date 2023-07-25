@@ -1,42 +1,47 @@
-.parent{
-    
+body{
+    margin: 0;
+    padding: 0;
     
 }
+html{
+    scroll-behavior: smooth;
+}
+
 .red{
     height: 550px;
-    width: 150px;
     background: red;
-    margin-right: 10px;
+    
 }
 .green{
-    height: 500px;
-    width: 150px;
+    height: 550px;
     background: green;
-    margin-right: 10px;
+
 }
 .orange{
     height: 550px;
-    width: 150px;
     background: rgb(62, 22, 241);
 }
 .circle{
-    height: 150px;
-    width: 150px;
+    height: 550px;
     background: rgb(201, 201, 171);
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
 }
-.back-top-btn{
+.back_btn{
+    background: blueviolet;
+    color: aliceblue;
+    /* width: 50px; */
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    /* height: 15px; */
     position: fixed;
     right: 20px;
     bottom: 20px;
+    pointer-events: none;
     cursor: pointer;
     opacity: 0;
 }
-.back-top-btn.active{
+.back_btn.xyz{
     opacity: 1;
+    pointer-events: auto;
 
 }

@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.red{
+    height: 550px;
+    background: rgb(221, 115, 115);
+    color: rgb(42, 50, 165);
+    
+}
+.text{
+
+}
+.more-text{
+    display: none;
+}
+.text.show-more .more-text{
+    display: inline;
+}
